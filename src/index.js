@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
       <Provider store={store}>
     <PersistGate loading ={null} persistor={persistore}>
-     <BrowserRouter>
+     <BrowserRouter basename="/goit-react-hw-06-phonebook">
     <App />
     </BrowserRouter>
     </PersistGate>
